@@ -81,6 +81,15 @@
 
     })
 
+    it('Select the "Text Box" button and sending empty name" ', function () {
+
+
+        cy.get(General.userName).click().type(" ")
+        cy.get(General.submitButton).click()
+        cy.get('#name').should('be.visible').contains('Name: ')
+
+    })
+
     it('Select the "Text Box" button and filling  the field "Email" ', function () {
 
         cy.get(General.userEmail).click().type('joanm@gmail.com')
