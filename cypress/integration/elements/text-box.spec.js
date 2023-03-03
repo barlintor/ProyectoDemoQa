@@ -42,7 +42,7 @@
 
     })
 
-    it('Select the "Text Box" button', function () {
+    it.only('Select the "Text Box" button', function () {
         //Select thee Text Box button, and verifing that exist the fields
         //cy.url().should('eq', 'https://demoqa.com/text-box')
         Utility.checkingUrl("/" + "text-box")

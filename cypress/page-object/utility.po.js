@@ -16,3 +16,4 @@ export const errorCss = element => cy.get(element).should('have.css', 'border-to
 
 export const redColors = element => cy.get(element).should('have.css', 'border-color', 'rgb(220, 53, 69)')
 export const greenColors = element => cy.get(element).should('have.css', 'border-color', 'rgb(40, 167, 69)')
+export const colorSelected = element => cy.get(element).should('have.css', 'background-color', 'rgb(33, 107, 165)')

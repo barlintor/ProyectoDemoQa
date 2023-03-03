@@ -67,7 +67,7 @@
 
     })
 
-    it.only('Click the "Interactions', function () {
+    it('Click the "Interactions', function () {
         //Enter in Demoqa Page, and select the "Interactions" button
 
         verifyingMenuList('Interactions', 'Interactions')
